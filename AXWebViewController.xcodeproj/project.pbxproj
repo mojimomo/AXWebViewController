@@ -18,6 +18,19 @@
 		01AA4F1C1D4F28DD008F2A2C /* TabbarViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AA4F1B1D4F28DD008F2A2C /* TabbarViewController2.m */; };
 		01CDC1511C2A3C9100D9AF53 /* AXWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01CDC1501C2A3C9100D9AF53 /* AXWebViewController.bundle */; };
 		01CDC15D1C2A41DF00D9AF53 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CDC15C1C2A41DF00D9AF53 /* TableViewController.m */; };
+		735BB61F2682DFAD00C95A10 /* AXPopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6002682DFAD00C95A10 /* AXPopNavigationController.m */; };
+		735BB6202682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6042682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.m */; };
+		735BB6212682DFAD00C95A10 /* AXIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 735BB6072682DFAD00C95A10 /* AXIndicatorView.bundle */; };
+		735BB6222682DFAD00C95A10 /* AXActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6082682DFAD00C95A10 /* AXActivityIndicatorView.m */; };
+		735BB6232682DFAD00C95A10 /* AXSpinningWaitCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6092682DFAD00C95A10 /* AXSpinningWaitCursor.m */; };
+		735BB6242682DFAD00C95A10 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB60D2682DFAD00C95A10 /* Aspects.m */; };
+		735BB6252682DFAD00C95A10 /* AXPracticalHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 735BB60F2682DFAD00C95A10 /* AXPracticalHUD.bundle */; };
+		735BB6262682DFAD00C95A10 /* AXPracticalHUDAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6122682DFAD00C95A10 /* AXPracticalHUDAnimator.m */; };
+		735BB6272682DFAD00C95A10 /* AXPracticalHUDContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6152682DFAD00C95A10 /* AXPracticalHUDContentView.m */; };
+		735BB6282682DFAD00C95A10 /* AXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB6192682DFAD00C95A10 /* AXCircleProgressView.m */; };
+		735BB6292682DFAD00C95A10 /* AXBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB61A2682DFAD00C95A10 /* AXBarProgressView.m */; };
+		735BB62A2682DFAD00C95A10 /* AXGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB61C2682DFAD00C95A10 /* AXGradientProgressView.m */; };
+		735BB62B2682DFAD00C95A10 /* AXPracticalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 735BB61E2682DFAD00C95A10 /* AXPracticalHUD.m */; };
 		97F6BE6D557C0BB485DDCF88 /* libPods-AXWebViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2642E682614F41BF460E7673 /* libPods-AXWebViewController.a */; };
 		DCA3C59F1FB0302F008DB632 /* FullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA3C59E1FB0302F008DB632 /* FullScreenViewController.m */; };
 		DCABA01B1EC5EE2A005C7D31 /* AXSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCABA01A1EC5EE2A005C7D31 /* AXSecurityPolicy.m */; };
@@ -49,6 +62,31 @@
 		0326F0589F0B7F449EE39607 /* Pods-AXWebViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebViewController/Pods-AXWebViewController.release.xcconfig"; sourceTree = "<group>"; };
 		2642E682614F41BF460E7673 /* libPods-AXWebViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AXWebViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7311EC599653BFAAF42107 /* Pods-AXWebViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXWebViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXWebViewController/Pods-AXWebViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		735BB6002682DFAD00C95A10 /* AXPopNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPopNavigationController.m; sourceTree = "<group>"; };
+		735BB6012682DFAD00C95A10 /* AXPopNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPopNavigationController.h; sourceTree = "<group>"; };
+		735BB6032682DFAD00C95A10 /* AXActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXActivityIndicatorView.h; sourceTree = "<group>"; };
+		735BB6042682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXBreachedAnnulusIndicatorView.m; sourceTree = "<group>"; };
+		735BB6052682DFAD00C95A10 /* AXSpinningWaitCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSpinningWaitCursor.h; sourceTree = "<group>"; };
+		735BB6062682DFAD00C95A10 /* AXIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXIndicatorView.h; sourceTree = "<group>"; };
+		735BB6072682DFAD00C95A10 /* AXIndicatorView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXIndicatorView.bundle; sourceTree = "<group>"; };
+		735BB6082682DFAD00C95A10 /* AXActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXActivityIndicatorView.m; sourceTree = "<group>"; };
+		735BB6092682DFAD00C95A10 /* AXSpinningWaitCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSpinningWaitCursor.m; sourceTree = "<group>"; };
+		735BB60A2682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXBreachedAnnulusIndicatorView.h; sourceTree = "<group>"; };
+		735BB60C2682DFAD00C95A10 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		735BB60D2682DFAD00C95A10 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		735BB60F2682DFAD00C95A10 /* AXPracticalHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXPracticalHUD.bundle; sourceTree = "<group>"; };
+		735BB6102682DFAD00C95A10 /* AXPracticalHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPracticalHUD.h; sourceTree = "<group>"; };
+		735BB6122682DFAD00C95A10 /* AXPracticalHUDAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPracticalHUDAnimator.m; sourceTree = "<group>"; };
+		735BB6132682DFAD00C95A10 /* AXPracticalHUDAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPracticalHUDAnimator.h; sourceTree = "<group>"; };
+		735BB6152682DFAD00C95A10 /* AXPracticalHUDContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPracticalHUDContentView.m; sourceTree = "<group>"; };
+		735BB6162682DFAD00C95A10 /* AXPracticalHUDContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPracticalHUDContentView.h; sourceTree = "<group>"; };
+		735BB6182682DFAD00C95A10 /* AXGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXGradientProgressView.h; sourceTree = "<group>"; };
+		735BB6192682DFAD00C95A10 /* AXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCircleProgressView.m; sourceTree = "<group>"; };
+		735BB61A2682DFAD00C95A10 /* AXBarProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXBarProgressView.m; sourceTree = "<group>"; };
+		735BB61B2682DFAD00C95A10 /* AXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCircleProgressView.h; sourceTree = "<group>"; };
+		735BB61C2682DFAD00C95A10 /* AXGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXGradientProgressView.m; sourceTree = "<group>"; };
+		735BB61D2682DFAD00C95A10 /* AXBarProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXBarProgressView.h; sourceTree = "<group>"; };
+		735BB61E2682DFAD00C95A10 /* AXPracticalHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPracticalHUD.m; sourceTree = "<group>"; };
 		A13CC1551E977227003AC1B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		A13CC1561E977227003AC1B2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		DCA3C59D1FB0302F008DB632 /* FullScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullScreenViewController.h; sourceTree = "<group>"; };
@@ -122,6 +160,10 @@
 				01513C051C28F90000CB8238 /* AXWebViewController.h */,
 				01513C061C28F90000CB8238 /* AXWebViewController.m */,
 				01CDC1501C2A3C9100D9AF53 /* AXWebViewController.bundle */,
+				735BB60B2682DFAD00C95A10 /* Aspects */,
+				735BB6022682DFAD00C95A10 /* AXIndicatorView */,
+				735BB5FF2682DFAD00C95A10 /* AXNavigationBackItemInjection */,
+				735BB60E2682DFAD00C95A10 /* AXPracticalHUD */,
 				DCABA01C1EC5FDFF005C7D31 /* Activity */,
 				DCABA0181EC5EE2A005C7D31 /* Security */,
 			);
@@ -144,6 +186,87 @@
 				2642E682614F41BF460E7673 /* libPods-AXWebViewController.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		735BB5FF2682DFAD00C95A10 /* AXNavigationBackItemInjection */ = {
+			isa = PBXGroup;
+			children = (
+				735BB6002682DFAD00C95A10 /* AXPopNavigationController.m */,
+				735BB6012682DFAD00C95A10 /* AXPopNavigationController.h */,
+			);
+			name = AXNavigationBackItemInjection;
+			path = AXWebViewController/AXNavigationBackItemInjection;
+			sourceTree = "<group>";
+		};
+		735BB6022682DFAD00C95A10 /* AXIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				735BB6032682DFAD00C95A10 /* AXActivityIndicatorView.h */,
+				735BB6042682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.m */,
+				735BB6052682DFAD00C95A10 /* AXSpinningWaitCursor.h */,
+				735BB6062682DFAD00C95A10 /* AXIndicatorView.h */,
+				735BB6072682DFAD00C95A10 /* AXIndicatorView.bundle */,
+				735BB6082682DFAD00C95A10 /* AXActivityIndicatorView.m */,
+				735BB6092682DFAD00C95A10 /* AXSpinningWaitCursor.m */,
+				735BB60A2682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.h */,
+			);
+			name = AXIndicatorView;
+			path = AXWebViewController/AXIndicatorView;
+			sourceTree = "<group>";
+		};
+		735BB60B2682DFAD00C95A10 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				735BB60C2682DFAD00C95A10 /* Aspects.h */,
+				735BB60D2682DFAD00C95A10 /* Aspects.m */,
+			);
+			name = Aspects;
+			path = AXWebViewController/Aspects;
+			sourceTree = "<group>";
+		};
+		735BB60E2682DFAD00C95A10 /* AXPracticalHUD */ = {
+			isa = PBXGroup;
+			children = (
+				735BB60F2682DFAD00C95A10 /* AXPracticalHUD.bundle */,
+				735BB6102682DFAD00C95A10 /* AXPracticalHUD.h */,
+				735BB6112682DFAD00C95A10 /* Animators */,
+				735BB6142682DFAD00C95A10 /* ContentView */,
+				735BB6172682DFAD00C95A10 /* ProgressViews */,
+				735BB61E2682DFAD00C95A10 /* AXPracticalHUD.m */,
+			);
+			name = AXPracticalHUD;
+			path = AXWebViewController/AXPracticalHUD;
+			sourceTree = "<group>";
+		};
+		735BB6112682DFAD00C95A10 /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				735BB6122682DFAD00C95A10 /* AXPracticalHUDAnimator.m */,
+				735BB6132682DFAD00C95A10 /* AXPracticalHUDAnimator.h */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		735BB6142682DFAD00C95A10 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				735BB6152682DFAD00C95A10 /* AXPracticalHUDContentView.m */,
+				735BB6162682DFAD00C95A10 /* AXPracticalHUDContentView.h */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		735BB6172682DFAD00C95A10 /* ProgressViews */ = {
+			isa = PBXGroup;
+			children = (
+				735BB6182682DFAD00C95A10 /* AXGradientProgressView.h */,
+				735BB6192682DFAD00C95A10 /* AXCircleProgressView.m */,
+				735BB61A2682DFAD00C95A10 /* AXBarProgressView.m */,
+				735BB61B2682DFAD00C95A10 /* AXCircleProgressView.h */,
+				735BB61C2682DFAD00C95A10 /* AXGradientProgressView.m */,
+				735BB61D2682DFAD00C95A10 /* AXBarProgressView.h */,
+			);
+			path = ProgressViews;
 			sourceTree = "<group>";
 		};
 		DCA3C59B1FB02FEE008DB632 /* Samples */ = {
@@ -200,8 +323,6 @@
 				01513BE71C28F70700CB8238 /* Sources */,
 				01513BE81C28F70700CB8238 /* Frameworks */,
 				01513BE91C28F70700CB8238 /* Resources */,
-				F3182DEE5A600ABFAF07F7DC /* [CP] Embed Pods Frameworks */,
-				90CC7504393E7254ABAF393F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,9 +354,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 01513BE21C28F70700CB8238;
 			productRefGroup = 01513BEC1C28F70700CB8238 /* Products */;
@@ -253,8 +376,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CDC1511C2A3C9100D9AF53 /* AXWebViewController.bundle in Resources */,
+				735BB6212682DFAD00C95A10 /* AXIndicatorView.bundle in Resources */,
 				01513BFE1C28F70700CB8238 /* LaunchScreen.storyboard in Resources */,
 				01513BFB1C28F70700CB8238 /* Assets.xcassets in Resources */,
+				735BB6252682DFAD00C95A10 /* AXPracticalHUD.bundle in Resources */,
 				DCCF48241E7987C9009CF38E /* Swift.pdf in Resources */,
 				01513BF91C28F70700CB8238 /* Main.storyboard in Resources */,
 			);
@@ -281,40 +406,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		90CC7504393E7254ABAF393F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AXWebViewController/Pods-AXWebViewController-resources.sh",
-				"${PODS_ROOT}/AXIndicatorView/AXIndicatorView/Classes/AXIndicatorView.bundle",
-				"${PODS_ROOT}/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXWebViewController/Pods-AXWebViewController-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3182DEE5A600ABFAF07F7DC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXWebViewController/Pods-AXWebViewController-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -322,14 +413,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735BB6232682DFAD00C95A10 /* AXSpinningWaitCursor.m in Sources */,
+				735BB6242682DFAD00C95A10 /* Aspects.m in Sources */,
+				735BB6292682DFAD00C95A10 /* AXBarProgressView.m in Sources */,
 				01AA4F191D4F28C2008F2A2C /* TabbarViewController1.m in Sources */,
+				735BB62B2682DFAD00C95A10 /* AXPracticalHUD.m in Sources */,
 				01513BF31C28F70700CB8238 /* AppDelegate.m in Sources */,
+				735BB6202682DFAD00C95A10 /* AXBreachedAnnulusIndicatorView.m in Sources */,
 				DCA3C59F1FB0302F008DB632 /* FullScreenViewController.m in Sources */,
+				735BB62A2682DFAD00C95A10 /* AXGradientProgressView.m in Sources */,
+				735BB6262682DFAD00C95A10 /* AXPracticalHUDAnimator.m in Sources */,
 				01513C071C28F90000CB8238 /* AXWebViewController.m in Sources */,
 				DCABA0231EC5FDFF005C7D31 /* AXWebViewControllerActivity.m in Sources */,
+				735BB6272682DFAD00C95A10 /* AXPracticalHUDContentView.m in Sources */,
+				735BB6282682DFAD00C95A10 /* AXCircleProgressView.m in Sources */,
 				01513BF01C28F70700CB8238 /* main.m in Sources */,
+				735BB61F2682DFAD00C95A10 /* AXPopNavigationController.m in Sources */,
 				01AA4F1C1D4F28DD008F2A2C /* TabbarViewController2.m in Sources */,
 				DCABA01B1EC5EE2A005C7D31 /* AXSecurityPolicy.m in Sources */,
+				735BB6222682DFAD00C95A10 /* AXActivityIndicatorView.m in Sources */,
 				01CDC15D1C2A41DF00D9AF53 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

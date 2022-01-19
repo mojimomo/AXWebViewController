@@ -8,7 +8,7 @@
 
 #import "TableViewController.h"
 #import "AXWebViewController.h"
-#import <AXPracticalHUD/AXPracticalHUD.h>
+#import "AXPracticalHUD.h"
 
 @interface TableViewController () <UITextFieldDelegate>
 
